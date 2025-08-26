@@ -1,4 +1,5 @@
 import { memo } from "react"
+import Yoga2 from '/images/yogapp2.jpg';
 
 function secondstep(){
 
@@ -10,7 +11,7 @@ function secondstep(){
             <p className=" text-2xl font-light text-black p-[1vmin]" >Открой приложение и погрузись в разнообразие медитаций, йога-сессий и дыхательных упражнений.</p>
 
         </div>
-        <div className="w-[50%] h-[100%] items-center  justify-center flex shadow-2xl shadow-stone-950/80"><img src='public/images/yogapp2.jpg' className="border-purple-200"  alt="Скачай приложение" ></img></div>
+        <div className="w-[50%] h-[100%] items-center  justify-center flex shadow-2xl shadow-stone-950/80"><img src={Yoga2} className="border-purple-200"  alt="Скачай приложение" ></img></div>
     </div>
     
     

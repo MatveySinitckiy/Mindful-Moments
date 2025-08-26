@@ -1,6 +1,10 @@
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import Yoga2 from '/images/yoga2.jpg';
+import Yoga3 from '/images/yoga3.jpg';
+import Yoga4 from '/images/yoga4.jpg';
+import Yoga5 from '/images/yoga5.jpg';
 // Регистрируем плагин ScrollTrigger
 gsap.registerPlugin(ScrollTrigger);
 
@@ -55,7 +59,7 @@ const FeatureSection = () => {
     <div className="space-y-8">
       <div className="flex  feature-element flex-row" ref={addToRefs}>
         <div className="feature-image bg-purple-500">
-          <img src='public/images/yoga2.jpg' alt="yoga" className="w-[100%] h-[100%]" />
+          <img src={Yoga2} alt="yoga" className="w-[100%] h-[100%]" />
         </div>
         <div className="feature-card">
           <h1>10-минутные сессии для снятия стресса.</h1>
@@ -64,7 +68,7 @@ const FeatureSection = () => {
 
       <div className="flex feature-element flex-row-reverse" ref={addToRefs}>
         <div className="feature-image bg-purple-500">
-          <img src='public/images/yoga3.jpg' alt="yoga" className="w-[100%] h-[100%]" />
+          <img src={Yoga3} alt="yoga" className="w-[100%] h-[100%]" />
         </div>
         <div className="feature-card">
           <h1>Медитируй без интернета.</h1>
@@ -73,7 +77,7 @@ const FeatureSection = () => {
 
       <div className="flex feature-element flex-row" ref={addToRefs}>
         <div className="feature-image bg-purple-500">
-          <img src='public/images/yoga4.jpg' alt="yoga" className="w-[100%] h-[100%]" />
+          <img src={Yoga4} alt="yoga" className="w-[100%] h-[100%]" />
         </div>
         <div className="feature-card">
           <h1>
@@ -84,7 +88,7 @@ const FeatureSection = () => {
 
       <div className="flex feature-element flex-row-reverse" ref={addToRefs}>
         <div className="feature-image bg-purple-500">
-          <img src='public/images/yoga5.jpg' alt="yoga" className="w-[100%] h-[100%]" />
+          <img src={Yoga5} alt="yoga" className="w-[100%] h-[100%]" />
         </div>
         <div className="feature-card">
           <h1>
