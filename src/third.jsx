@@ -1,5 +1,5 @@
 import { memo } from "react"
-import Yoga3 from './joga33.jpg';
+
 
 function thirdstep(){
 
@@ -11,7 +11,7 @@ function thirdstep(){
             <p className=" text-2xl font-light text-black p-[1vmin]" >Создай персонализированный план занятий, который идеально впишется в твой ритм жизни.</p>
 
         </div>
-        <div className="w-[50%] h-[100%] items-center  justify-center flex shadow-2xl shadow-stone-950/80"><img src={Yoga3} className="border-purple-200"  alt="Скачай приложение" ></img></div>
+        <div className="w-[50%] h-[100%] items-center  justify-center s-3 flex shadow-2xl shadow-stone-950/80"></div>
     </div>
     
     

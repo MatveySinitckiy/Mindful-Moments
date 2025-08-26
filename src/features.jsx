@@ -1,10 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import Yoga2 from './yoga2.jpg';
-import Yoga3 from './yoga3.jpg';
-import Yoga4 from './yoga4.jpg';
-import Yoga5 from './yoga5.jpg';
+
 // Регистрируем плагин ScrollTrigger
 gsap.registerPlugin(ScrollTrigger);
 
@@ -58,8 +55,8 @@ const FeatureSection = () => {
   return (
     <div className="space-y-8">
       <div className="flex  feature-element flex-row" ref={addToRefs}>
-        <div className="feature-image bg-purple-500">
-          <img src={Yoga2} alt="yoga" className="w-[100%] h-[100%]" />
+        <div className="feature-image fi-1  bg-purple-500">
+          
         </div>
         <div className="feature-card">
           <h1>10-минутные сессии для снятия стресса.</h1>
@@ -67,8 +64,8 @@ const FeatureSection = () => {
       </div>
 
       <div className="flex feature-element flex-row-reverse" ref={addToRefs}>
-        <div className="feature-image bg-purple-500">
-          <img src={Yoga3} alt="yoga" className="w-[100%] h-[100%]" />
+        <div className="feature-image fi-2 bg-purple-500">
+          
         </div>
         <div className="feature-card">
           <h1>Медитируй без интернета.</h1>
@@ -76,8 +73,8 @@ const FeatureSection = () => {
       </div>
 
       <div className="flex feature-element flex-row" ref={addToRefs}>
-        <div className="feature-image bg-purple-500">
-          <img src={Yoga4} alt="yoga" className="w-[100%] h-[100%]" />
+        <div className="feature-image fi-3 bg-purple-500">
+
         </div>
         <div className="feature-card">
           <h1>
@@ -87,8 +84,8 @@ const FeatureSection = () => {
       </div>
 
       <div className="flex feature-element flex-row-reverse" ref={addToRefs}>
-        <div className="feature-image bg-purple-500">
-          <img src={Yoga5} alt="yoga" className="w-[100%] h-[100%]" />
+        <div className="feature-image fi-4 bg-purple-500">
+
         </div>
         <div className="feature-card">
           <h1>
