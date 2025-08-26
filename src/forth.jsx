@@ -1,5 +1,5 @@
 import { memo } from "react"
-import Yoga4 from '/images/yoga44.jpg';
+import Yoga4 from './assets/yoga44.jpg';
 function forthstep(){
 
     return<>
