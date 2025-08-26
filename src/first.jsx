@@ -1,5 +1,5 @@
 import { memo } from "react"
-import yogaapp from '/yogapp.jpg';
+import yogaapp from '/src/pictures/yogapp.jpg';
 function Firststep(){
 
     return<>
