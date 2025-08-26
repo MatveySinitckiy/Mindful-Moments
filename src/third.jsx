@@ -1,5 +1,5 @@
 import { memo } from "react"
-import yoga3 from './pictures/joga33.jpg';
+import yoga3 from '/joga33.jpg';
 function thirdstep(){
 
     return<>
