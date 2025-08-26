@@ -97,7 +97,7 @@ return<>
 <button onMouseEnter={()=> setMouseOver(!isMouseOver)} onMouseLeave={()=> setMouseOver(!isMouseOver)} 
 onClick= {()=> setOpenHeader(!isOpenHeader)} 
 className={` ml-[2%] bg-linear-60 text-transparent bg-clip-text from-purple-300 via-cyan-50 to-pink-50 text-5xl
- font-extrabold ${ isOpenHeader ? '': 'animate-pulse'}  top-[2vh] tracking-tighter fixed absolute z-11 hover:scale-105
+ font-extrabold ${ isOpenHeader ? '': 'animate-pulse'}  top-[2vh] tracking-tighter fixed  z-11 hover:scale-105
   hover:animate-none hover:cursor-pointer active:scale-95`} >MM</button>
 
 
