@@ -1,10 +1,10 @@
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import Yoga2 from './assets/yoga2.jpg';
-import Yoga3 from './assets/yoga3.jpg';
-import Yoga4 from './assets/yoga4.jpg';
-import Yoga5 from './assets/yoga5.jpg';
+import Yoga2 from './yoga2.jpg';
+import Yoga3 from './yoga3.jpg';
+import Yoga4 from './yoga4.jpg';
+import Yoga5 from './yoga5.jpg';
 // Регистрируем плагин ScrollTrigger
 gsap.registerPlugin(ScrollTrigger);
 
