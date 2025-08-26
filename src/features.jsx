@@ -1,7 +1,10 @@
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
+import yoga2 from './pictures/yoga2.jpg';
+import yoga3 from './pictures/yoga3.jpg';
+import yoga4 from './pictures/yoga4.jpg';
+import yoga5 from './pictures/yoga5.jpg';
 // Регистрируем плагин ScrollTrigger
 gsap.registerPlugin(ScrollTrigger);
 
@@ -56,7 +59,7 @@ const FeatureSection = () => {
     <div className="space-y-8">
       <div className="flex  feature-element flex-row" ref={addToRefs}>
         <div className="feature-image bg-purple-500">
-          <img src="public/images/yoga2.jpg" alt="yoga" className="w-[100%] h-[100%]" />
+          <img src={yoga2} alt="yoga" className="w-[100%] h-[100%]" />
         </div>
         <div className="feature-card">
           <h1>10-минутные сессии для снятия стресса.</h1>
@@ -65,7 +68,7 @@ const FeatureSection = () => {
 
       <div className="flex feature-element flex-row-reverse" ref={addToRefs}>
         <div className="feature-image bg-purple-500">
-          <img src="public/images/yoga3.jpg" alt="yoga" className="w-[100%] h-[100%]" />
+          <img src={yoga3} alt="yoga" className="w-[100%] h-[100%]" />
         </div>
         <div className="feature-card">
           <h1>Медитируй без интернета.</h1>
@@ -74,7 +77,7 @@ const FeatureSection = () => {
 
       <div className="flex feature-element flex-row" ref={addToRefs}>
         <div className="feature-image bg-purple-500">
-          <img src="public/images/yoga4.jpg" alt="yoga" className="w-[100%] h-[100%]" />
+          <img src={yoga4} alt="yoga" className="w-[100%] h-[100%]" />
         </div>
         <div className="feature-card">
           <h1>
@@ -85,7 +88,7 @@ const FeatureSection = () => {
 
       <div className="flex feature-element flex-row-reverse" ref={addToRefs}>
         <div className="feature-image bg-purple-500">
-          <img src="public/images/yoga5.jpg" alt="yoga" className="w-[100%] h-[100%]" />
+          <img src={yoga5} alt="yoga" className="w-[100%] h-[100%]" />
         </div>
         <div className="feature-card">
           <h1>
