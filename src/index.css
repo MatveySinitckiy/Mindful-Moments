@@ -6,27 +6,27 @@ body{
     max-width: 100vw;
 }
 #hs {
-    background-image:url(./assets/yoga1.jpg);
+    background-image:url(/public/yoga1.jpg);
     
 }
 .fi-1{
-  background-image: url(./assets/yoga2.jpg);
+  background-image: url(/public/yoga2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   
 }
 .fi-2{
-   background-image: url(./assets/yoga3.jpg);
+   background-image: url(/public/yoga3.jpg);
   background-size: cover;
   background-repeat: no-repeat
 }
 .fi-3{
-   background-image: url(./assets/yoga4.jpg);
+   background-image: url(/public/yoga4.jpg);
   background-size: cover;
   background-repeat: no-repeat
 }
 .fi-4{
-   background-image: url(./assets/yoga5.jpg);
+   background-image: url(/public/yoga5.jpg);
   background-size: cover;
   background-repeat: no-repeat
 }
@@ -147,22 +147,22 @@ button{
   transform: translateY(0);
 }
 .s-1{
-  background-image: url(./assets/yogapp.jpg);
+  background-image: url(/public/yogapp.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .s-2{
-  background-image: url(./assets/yogapp2.jpg);
+  background-image: url(/public/yogapp2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .s-3{
-  background-image: url(./assets/joga33.jpg);
+  background-image: url(/public/joga33.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .s-4{
-  background-image: url(./assets/yoga44.jpg);
+  background-image: url(/public/yoga44.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
