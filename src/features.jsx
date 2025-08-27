@@ -56,7 +56,7 @@ const FeatureSection = () => {
     <div className="space-y-8">
       <div className="flex  feature-element flex-row" ref={addToRefs}>
         <div className="feature-image fi-1  bg-purple-500">
-          
+          <img src='./yoga2.jpg' ></img>
         </div>
         <div className="feature-card">
           <h1>10-минутные сессии для снятия стресса.</h1>
@@ -65,7 +65,7 @@ const FeatureSection = () => {
 
       <div className="flex feature-element flex-row-reverse" ref={addToRefs}>
         <div className="feature-image fi-2 bg-purple-500">
-          
+          <img src='./yoga3.jpg' ></img>
         </div>
         <div className="feature-card">
           <h1>Медитируй без интернета.</h1>
@@ -74,7 +74,7 @@ const FeatureSection = () => {
 
       <div className="flex feature-element flex-row" ref={addToRefs}>
         <div className="feature-image fi-3 bg-purple-500">
-
+      <img src='./yoga4.jpg' ></img>
         </div>
         <div className="feature-card">
           <h1>
@@ -85,7 +85,7 @@ const FeatureSection = () => {
 
       <div className="flex feature-element flex-row-reverse" ref={addToRefs}>
         <div className="feature-image fi-4 bg-purple-500">
-
+          <img src='./yoga5.jpg' />
         </div>
         <div className="feature-card">
           <h1>

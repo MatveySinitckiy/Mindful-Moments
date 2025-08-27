@@ -11,7 +11,7 @@ function Firststep(){
             <p className=" text-2xl font-light text-black p-[1vmin]" >Найди Mindful Moments в App Store или Google Play и установи приложение на своё устройство</p>
 
         </div>
-        <div className="w-[50%] h-[100%] items-center s-1 justify-center flex shadow-2xl shadow-stone-950/80"></div>
+        <div className="w-[50%] h-[100%] items-center s-1 justify-center flex shadow-2xl shadow-stone-950/80"><img src='./yogapp.jpg' ></img></div>
     </div>
     
     </>

@@ -11,7 +11,7 @@ function secondstep(){
             <p className=" text-2xl font-light text-black p-[1vmin]" >Открой приложение и погрузись в разнообразие медитаций, йога-сессий и дыхательных упражнений.</p>
 
         </div>
-        <div className="w-[50%] h-[100%] items-center  justify-center s-2 flex shadow-2xl shadow-stone-950/80"></div>
+        <div className="w-[50%] h-[100%] items-center  justify-center s-2 flex shadow-2xl shadow-stone-950/80"><img src='./yogapp2.jpg' ></img></div>
     </div>
     
     

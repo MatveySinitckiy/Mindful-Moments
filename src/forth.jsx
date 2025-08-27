@@ -10,7 +10,7 @@ function forthstep(){
             <p className=" text-2xl font-light text-black p-[1vmin]" >Практикуй регулярно и отслеживай свой прогресс в приложении. С каждой сессией ты будешь замечать, как стресс уходит, а энергия и умиротворение наполняют твою жизнь.</p>
 
         </div>
-        <div className="w-[50%] h-[100%] items-center  justify-center s-4 flex shadow-2xl shadow-stone-950/80"></div>
+        <div className="w-[50%] h-[100%] items-center  justify-center s-4 flex shadow-2xl shadow-stone-950/80"><img src='./yoga44.jpg' ></img></div>
     </div>
     </>
 }

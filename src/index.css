@@ -9,28 +9,6 @@ body{
     background-image:url(/public/yoga1.jpg);
     
 }
-.fi-1{
-  background-image: url(/public/yoga2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  
-}
-.fi-2{
-   background-image: url(/public/yoga3.jpg);
-  background-size: cover;
-  background-repeat: no-repeat
-}
-.fi-3{
-   background-image: url(/public/yoga4.jpg);
-  background-size: cover;
-  background-repeat: no-repeat
-}
-.fi-4{
-   background-image: url(/public/yoga5.jpg);
-  background-size: cover;
-  background-repeat: no-repeat
-}
-
 
 #heade{
   animation-name: header;
@@ -114,7 +92,7 @@ button{
     @apply p-[1vmin] text-center mx-[6vw]  flex items-center text-5xl font-light tracking-tight  bg-linear-60 text-transparent bg-clip-text from-purple-600 via-cyan-100 to-pink-300 
 }
 .feature-image{
-    @apply rounded h-[65vh]  w-[45vw] mx-[4vw] mt-[4vh]  hover:border-0 hover:shadow-gray-900  overflow-hidden shadow-2xl shadow-neutral-200/15 rounded-2xl transition-all hover:scale-105 hover:rotate-6 
+    @apply rounded h-auto  w-[40vw] mx-[4vw] mt-[4vh]  hover:border-0 hover:shadow-gray-900  overflow-hidden shadow-2xl shadow-neutral-200/15 rounded-2xl transition-all hover:scale-105 hover:rotate-6 
 }
 .slideinn{
     animation-name: slideinn;
@@ -145,24 +123,4 @@ button{
 .feature-element.visible {
   opacity: 1;
   transform: translateY(0);
-}
-.s-1{
-  background-image: url(/public/yogapp.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.s-2{
-  background-image: url(/public/yogapp2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.s-3{
-  background-image: url(/public/joga33.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.s-4{
-  background-image: url(/public/yoga44.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
